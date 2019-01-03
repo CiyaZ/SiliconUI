@@ -1,0 +1,77 @@
+.si-form fieldset {
+    border: 1px solid #cbcbcb;
+}
+
+.si-form-input {
+    padding: 7px 9px;
+}
+
+.si-form-input label {
+    vertical-align: top;
+    text-align: right;
+    width: 20%;
+    display: inline-block;
+    padding: 4px;
+}
+
+.si-form-input input {
+    width: 60%;
+    display: inline-block;
+    height: 24px;
+    border: 1px solid #cbcbcb;
+    outline: none;
+    padding: 2px 7px;
+}
+
+.si-form-input input:focus {
+    border: 1px solid lightskyblue;
+    outline: 2px solid lightskyblue;
+}
+
+.si-form-checkbox {
+    padding: 7px 9px;
+}
+
+.si-form-checkbox label {
+    vertical-align: top;
+    text-align: right;
+    width: 20%;
+    display: inline-block;
+    padding: 4px;
+}
+
+.si-form-checkbox input {
+    padding: 2px 7px;
+}
+
+.si-form-radio {
+    padding: 7px 9px;
+}
+
+.si-form-radio label {
+    vertical-align: top;
+    text-align: right;
+    width: 20%;
+    display: inline-block;
+    padding: 4px;
+}
+
+.si-form-radio input {
+    padding: 2px 7px;
+}
+
+.si-form-select {
+    padding: 7px 9px;
+}
+
+.si-form-select label {
+    vertical-align: top;
+    text-align: right;
+    width: 20%;
+    display: inline-block;
+    padding: 4px;
+}
+
+.si-form-select select {
+    padding: 7px 9px;
+}

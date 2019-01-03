@@ -1,0 +1,30 @@
+.si-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.si-table caption {
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.si-table tr {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.si-table tr:nth-child(2n+1) {
+    border-bottom: 1px solid #cbcbcb;
+}
+
+.si-table tr:hover {
+    background-color: rgba(235, 235, 235, 0.1);
+}
+
+.si-table td {
+    padding: 7px 9px;
+}
+
+.si-table th {
+    padding: 10px 12px;
+}

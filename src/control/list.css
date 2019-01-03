@@ -1,0 +1,27 @@
+.si-list {
+    list-style: none;
+    padding: 1px;
+    opacity: 0.85;
+}
+
+.si-list li:nth-child(n) {
+    padding: 7px 9px;
+}
+
+.si-list li:nth-child(n) a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.si-list li:nth-child(n):hover {
+    background-color: rgba(235, 235, 235, 0.1);
+}
+
+.si-list li:nth-child(n):active {
+    background-color: rgba(235, 235, 235, 0.2);
+}
+
+.si-list-active {
+    background-color: rgba(235, 235, 235, 0.2);
+}

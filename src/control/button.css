@@ -1,0 +1,44 @@
+.si-btn {
+    box-sizing: border-box;
+    cursor: pointer;
+    border: none;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.85;
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    outline: none;
+}
+
+.si-btn:hover {
+    box-shadow: 0 1px 3px 1px #cbcbcb;
+}
+
+.si-btn:active {
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    opacity: 0.95;
+}
+
+.si-btn-large {
+    cursor: pointer;
+    border: none;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.85;
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    outline: none;
+}
+
+.si-btn-large:hover {
+    box-shadow: 0 1px 3px 1px #cbcbcb;
+}
+
+.si-btn-large:active {
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    opacity: 0.95;
+}
