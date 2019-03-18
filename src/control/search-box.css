@@ -30,7 +30,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    opacity: 0.85;
     outline: none;
     width: 20%;
 }
@@ -39,5 +38,4 @@
 }
 
 .si-search-box button:active {
-    opacity: 0.95;
 }

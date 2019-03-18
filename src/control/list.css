@@ -1,7 +1,6 @@
 .si-list {
     list-style: none;
     padding: 1px;
-    opacity: 0.85;
 }
 
 .si-list li:nth-child(n) {

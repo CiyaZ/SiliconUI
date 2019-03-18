@@ -28,7 +28,6 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    opacity: 0.85;
     box-shadow: 0 0 3px 1px #cbcbcb;
     outline: none;
 }
@@ -39,5 +38,4 @@
 
 .si-btn-large:active {
     box-shadow: 0 0 3px 1px #cbcbcb;
-    opacity: 0.95;
 }

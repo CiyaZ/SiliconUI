@@ -1,86 +1,347 @@
+/*bg*/
 .si-bg-red {
-    background-color: red;
+    background-color: rgba(255, 0, 0, 1);
 }
 
 .si-bg-pink {
-    background-color: pink;
+    background-color: rgba(255, 192, 203, 1);
 }
 
 .si-bg-purple {
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 1);
 }
 
 .si-bg-deep-purple {
-    background-color: #673ab6;
+    background-color: rgba(103, 58, 102, 1);
 }
 
 .si-bg-indigo {
-    background-color: indigo;
+    background-color: rgba(75, 0, 130, 1);
 }
 
 .si-bg-blue {
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 1);
 }
 
 .si-bg-light-blue {
-    background-color: #03a8f3;
+    background-color: rgba(3, 168, 243, 1);
 }
 
 .si-bg-cyan {
-    background-color: cyan;
+    background-color: rgba(0, 255, 255, 1);
 }
 
 .si-bg-teal {
-    background-color: teal;
+    background-color: rgba(0, 128, 128, 1);
 }
 
 .si-bg-green {
-    background-color: green;
+    background-color: rgba(0, 128, 0, 1);
 }
 
 .si-bg-light-green {
-    background-color: #8ac24a;
+    background-color: rgba(138, 194, 74, 1);
 }
 
 .si-bg-lime {
-    background-color: lime;
+    background-color: rgba(0, 255, 0, 1);
 }
 
 .si-bg-yellow {
-    background-color: yellow;
+    background-color: rgba(255, 255, 0, 1);
 }
 
 .si-bg-amber {
-    background-color: #fec007;
+    background-color: rgba(254, 192, 7, 1);
 }
 
 .si-bg-orange {
-    background-color: orange;
+    background-color: rgba(255, 165, 0, 1);
 }
 
 .si-bg-deep-orange {
-    background-color: #fe5722;
+    background-color: rgba(254, 87, 34, 1);
 }
 
 .si-bg-brown {
-    background-color: brown;
+    background-color: rgba(165, 42, 42, 1);
 }
 
 .si-bg-gray {
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 1);
 }
 
 .si-bg-blue-gray {
-    background-color: #607d8a;
+    background-color: rgba(96, 125, 138, 1);
 }
 
 .si-bg-white {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .si-bg-black {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 1);
 }
+
+/*lighten-1*/
+
+.si-bg-red-lighten-1 {
+    background-color: rgba(255, 0, 0, .95);
+}
+
+.si-bg-pink-lighten-1 {
+    background-color: rgba(255, 192, 203, .95);
+}
+
+.si-bg-purple-lighten-1 {
+    background-color: rgba(128, 0, 128, .95);
+}
+
+.si-bg-deep-purple-lighten-1 {
+    background-color: rgba(103, 58, 102, .95);
+}
+
+.si-bg-indigo-lighten-1 {
+    background-color: rgba(75, 0, 130, .95);
+}
+
+.si-bg-blue-lighten-1 {
+    background-color: rgba(0, 0, 255, .95);
+}
+
+.si-bg-light-blue-lighten-1 {
+    background-color: rgba(3, 168, 243, .95);
+}
+
+.si-bg-cyan-lighten-1 {
+    background-color: rgba(0, 255, 255, .95);
+}
+
+.si-bg-teal-lighten-1 {
+    background-color: rgba(0, 128, 128, .95);
+}
+
+.si-bg-green-lighten-1 {
+    background-color: rgba(0, 128, 0, .95);
+}
+
+.si-bg-light-green-lighten-1 {
+    background-color: rgba(138, 194, 74, .95);
+}
+
+.si-bg-lime-lighten-1 {
+    background-color: rgba(0, 255, 0, .95);
+}
+
+.si-bg-yellow-lighten-1 {
+    background-color: rgba(255, 255, 0, .95);
+}
+
+.si-bg-amber-lighten-1 {
+    background-color: rgba(254, 192, 7, .95);
+}
+
+.si-bg-orange-lighten-1 {
+    background-color: rgba(255, 165, 0, .95);
+}
+
+.si-bg-deep-orange-lighten-1 {
+    background-color: rgba(254, 87, 34, .95);
+}
+
+.si-bg-brown-lighten-1 {
+    background-color: rgba(165, 42, 42, .95);
+}
+
+.si-bg-gray-lighten-1 {
+    background-color: rgba(128, 128, 128, .95);
+}
+
+.si-bg-blue-gray-lighten-1 {
+    background-color: rgba(96, 125, 138, .95);
+}
+
+.si-bg-white-lighten-1 {
+    background-color: rgba(255, 255, 255, .95);
+}
+
+.si-bg-black-lighten-1 {
+    background-color: rgba(0, 0, 0, .95);
+}
+
+/*lighten-2*/
+
+.si-bg-red-lighten-2 {
+    background-color: rgba(255, 0, 0, .65);
+}
+
+.si-bg-pink-lighten-2 {
+    background-color: rgba(255, 192, 203, .65);
+}
+
+.si-bg-purple-lighten-2 {
+    background-color: rgba(128, 0, 128, .65);
+}
+
+.si-bg-deep-purple-lighten-2 {
+    background-color: rgba(103, 58, 102, .65);
+}
+
+.si-bg-indigo-lighten-2 {
+    background-color: rgba(75, 0, 130, .65);
+}
+
+.si-bg-blue-lighten-2 {
+    background-color: rgba(0, 0, 255, .65);
+}
+
+.si-bg-light-blue-lighten-2 {
+    background-color: rgba(3, 168, 243, .65);
+}
+
+.si-bg-cyan-lighten-2 {
+    background-color: rgba(0, 255, 255, .65);
+}
+
+.si-bg-teal-lighten-2 {
+    background-color: rgba(0, 128, 128, .65);
+}
+
+.si-bg-green-lighten-2 {
+    background-color: rgba(0, 128, 0, .65);
+}
+
+.si-bg-light-green-lighten-2 {
+    background-color: rgba(138, 194, 74, .65);
+}
+
+.si-bg-lime-lighten-2 {
+    background-color: rgba(0, 255, 0, .65);
+}
+
+.si-bg-yellow-lighten-2 {
+    background-color: rgba(255, 255, 0, .65);
+}
+
+.si-bg-amber-lighten-2 {
+    background-color: rgba(254, 192, 7, .65);
+}
+
+.si-bg-orange-lighten-2 {
+    background-color: rgba(255, 165, 0, .65);
+}
+
+.si-bg-deep-orange-lighten-2 {
+    background-color: rgba(254, 87, 34, .65);
+}
+
+.si-bg-brown-lighten-2 {
+    background-color: rgba(165, 42, 42, .65);
+}
+
+.si-bg-gray-lighten-2 {
+    background-color: rgba(128, 128, 128, .65);
+}
+
+.si-bg-blue-gray-lighten-2 {
+    background-color: rgba(96, 125, 138, .65);
+}
+
+.si-bg-white-lighten-2 {
+    background-color: rgba(255, 255, 255, .65);
+}
+
+.si-bg-black-lighten-2 {
+    background-color: rgba(0, 0, 0, .65);
+}
+
+/*lighten-3*/
+
+.si-bg-red-lighten-3 {
+    background-color: rgba(255, 0, 0, .85);
+}
+
+.si-bg-pink-lighten-3 {
+    background-color: rgba(255, 192, 203, .85);
+}
+
+.si-bg-purple-lighten-3 {
+    background-color: rgba(128, 0, 128, .85);
+}
+
+.si-bg-deep-purple-lighten-3 {
+    background-color: rgba(103, 58, 102, .85);
+}
+
+.si-bg-indigo-lighten-3 {
+    background-color: rgba(75, 0, 130, .85);
+}
+
+.si-bg-blue-lighten-3 {
+    background-color: rgba(0, 0, 255, .85);
+}
+
+.si-bg-light-blue-lighten-3 {
+    background-color: rgba(3, 168, 243, .85);
+}
+
+.si-bg-cyan-lighten-3 {
+    background-color: rgba(0, 255, 255, .85);
+}
+
+.si-bg-teal-lighten-3 {
+    background-color: rgba(0, 128, 128, .85);
+}
+
+.si-bg-green-lighten-3 {
+    background-color: rgba(0, 128, 0, .85);
+}
+
+.si-bg-light-green-lighten-3 {
+    background-color: rgba(138, 194, 74, .85);
+}
+
+.si-bg-lime-lighten-3 {
+    background-color: rgba(0, 255, 0, .85);
+}
+
+.si-bg-yellow-lighten-3 {
+    background-color: rgba(255, 255, 0, .85);
+}
+
+.si-bg-amber-lighten-3 {
+    background-color: rgba(254, 192, 7, .85);
+}
+
+.si-bg-orange-lighten-3 {
+    background-color: rgba(255, 165, 0, .85);
+}
+
+.si-bg-deep-orange-lighten-3 {
+    background-color: rgba(254, 87, 34, .85);
+}
+
+.si-bg-brown-lighten-3 {
+    background-color: rgba(165, 42, 42, .85);
+}
+
+.si-bg-gray-lighten-3 {
+    background-color: rgba(128, 128, 128, .85);
+}
+
+.si-bg-blue-gray-lighten-3 {
+    background-color: rgba(96, 125, 138, .85);
+}
+
+.si-bg-white-lighten-3 {
+    background-color: rgba(255, 255, 255, .85);
+}
+
+.si-bg-black-lighten-3 {
+    background-color: rgba(0, 0, 0, .85);
+}
+
+/*fg*/
 
 .si-fg-red {
     color: red;
