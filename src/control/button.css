@@ -1,3 +1,25 @@
+.si-btn-small {
+    cursor: pointer;
+    border: none;
+    padding: 2px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    opacity: 0.85;
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    outline: none;
+}
+
+.si-btn-small:hover {
+    box-shadow: 0 1px 3px 1px #cbcbcb;
+}
+
+.si-btn-small:active {
+    box-shadow: 0 0 3px 1px #cbcbcb;
+    opacity: 0.95;
+}
+
 .si-btn {
     cursor: pointer;
     border: none;
