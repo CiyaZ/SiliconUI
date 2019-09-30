@@ -7,17 +7,17 @@
     display: inline-block;
     font-size: 16px;
     opacity: 0.85;
-    box-shadow: 0 0 3px 1px #cbcbcb;
     outline: none;
+    transition: box-shadow 0.3s;
 }
 
 .si-btn-small:hover {
-    box-shadow: 0 1px 3px 1px #cbcbcb;
+    box-shadow: 0 0 0 2px var(--box-shadow-color, white) inset;
 }
 
 .si-btn-small:active {
-    box-shadow: 0 0 3px 1px #cbcbcb;
     opacity: 0.95;
+    box-shadow: 0 0 1px 2px var(--box-shadow-color, white) inset;
 }
 
 .si-btn {
@@ -29,17 +29,17 @@
     display: inline-block;
     font-size: 16px;
     opacity: 0.85;
-    box-shadow: 0 0 3px 1px #cbcbcb;
     outline: none;
+    transition: box-shadow 0.3s;
 }
 
 .si-btn:hover {
-    box-shadow: 0 1px 3px 1px #cbcbcb;
+    box-shadow: 0 0 0 2px var(--box-shadow-color, white) inset;
 }
 
 .si-btn:active {
-    box-shadow: 0 0 3px 1px #cbcbcb;
     opacity: 0.95;
+    box-shadow: 0 0 1px 2px var(--box-shadow-color, white) inset;
 }
 
 .si-btn-large {
@@ -50,14 +50,15 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    box-shadow: 0 0 3px 1px #cbcbcb;
     outline: none;
+    transition: box-shadow 0.3s;
 }
 
 .si-btn-large:hover {
-    box-shadow: 0 1px 3px 1px #cbcbcb;
+    box-shadow: 0 0 0 2px var(--box-shadow-color, white) inset;
 }
 
 .si-btn-large:active {
-    box-shadow: 0 0 3px 1px #cbcbcb;
+    opacity: 0.95;
+    box-shadow: 0 0 1px 2px var(--box-shadow-color, white) inset;
 }

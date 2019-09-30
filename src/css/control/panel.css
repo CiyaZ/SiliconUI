@@ -1,8 +1,8 @@
 .si-panel {
     padding: 7px 15px;
-    box-shadow: 0 0 3px 1px #cbcbcb;
+    border: 3px solid var(--border-color, #f2f2f2);
 }
 
 .si-panel:hover {
-    box-shadow: 0 1px 3px 1px #cbcbcb;
+    box-shadow: 0 0 0 1px var(--box-shadow-color, #f2f2f2) inset;
 }

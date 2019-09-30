@@ -10,6 +10,97 @@
     <title>使用示例</title>
 </head>
 <body>
+<div style="overflow: hidden">
+    <div class="si-header si-bg-white-lighten-2">
+        <div style="font-size: 25px; margin-top: 5px; margin-left: 10px">SiliconUI 使用示例</div>
+    </div>
+    <div class="si-container" style="margin-top: 45px">
+        <div class="si-panel si-bg-white si-decor-pink">
+            <button class="si-btn-small si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
+            <button class="si-btn si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
+            <button class="si-btn-large si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
+        </div>
+        <div class="si-panel si-bg-white" style="margin-top: 5px">
+            <div class="si-search-box" style="margin-bottom: 10px; width: 20%">
+                <input type="text" placeholder="搜索"/>
+                <button class="si-bg-deep-orange si-fg-white si-btn si-decor-orange">Go</button>
+            </div>
+            <table class="si-table">
+                <tr>
+                    <th>服务</th>
+                    <th>IP地址和端口</th>
+                    <th>密码</th>
+                </tr>
+                <tr>
+                    <td>Tomcat</td>
+                    <td>192.168.1.101:8080</td>
+                    <td>abc123</td>
+                </tr>
+                <tr>
+                    <td>MySQL</td>
+                    <td>192.168.1.101:3306</td>
+                    <td>root</td>
+                </tr>
+                <tr>
+                    <td>Redis</td>
+                    <td>192.168.1.101:6379</td>
+                    <td>-</td>
+                </tr>
+            </table>
+        </div>
+        <div style="overflow: hidden">
+            <div class="si-panel si-bg-white" style="width: 20%; margin-top: 5px; float: left">
+                <ul class="si-list">
+                    <li>This is list element 1.</li>
+                    <li>This is list element 2.</li>
+                    <li>This is list element 3.</li>
+                    <li>This is list element 4.</li>
+                    <li><a href="#">This is list element 5.</a></li>
+                </ul>
+            </div>
+            <div class="si-panel si-bg-white" style="width: 50%;margin-top: 5px;margin-left: 5px; float: left">
+                <form class="si-form">
+                    <div class="si-form-input">
+                        <label for="username">Username</label>
+                        <input type="text" id="username" name="username" placeholder="Username"/>
+                    </div>
 
+                    <div class="si-form-input">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password"/>
+                    </div>
+
+                    <div class="si-form-select">
+                        <label for="area">Area</label>
+                        <select name="area" id="area">
+                            <option value="China">中国</option>
+                            <option value="other">外国</option>
+                        </select>
+                    </div>
+
+                    <div class="si-form-radio">
+                        <label for="teacher"></label>
+                        <input type="radio" name="type" id="teacher"/>Teacher
+                    </div>
+
+                    <div class="si-form-radio">
+                        <label for="student"></label>
+                        <input type="radio" name="type" id="student"/>Student
+                    </div>
+
+                    <div class="si-form-checkbox">
+                        <label for="remember"></label>
+                        <input type="checkbox" name="remember" id="remember"/>Remember Me
+                    </div>
+
+                    <div style="text-align: right">
+                        <input type="submit" value="重置" class="si-btn si-bg-red-lighten-2 si-fg-white si-decor-pink"/>
+                        <input type="submit" value="提交" class="si-btn si-bg-blue-lighten-2 si-fg-white si-decor-light-blue"/>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
 </body>
 </html>

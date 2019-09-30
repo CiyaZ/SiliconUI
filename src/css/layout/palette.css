@@ -27,6 +27,10 @@
     background-color: rgba(3, 168, 243, 1);
 }
 
+.si-bg-sky-blue {
+    background-color: rgba(135, 206, 250, 1);
+}
+
 .si-bg-cyan {
     background-color: rgba(0, 255, 255, 1);
 }
@@ -111,6 +115,10 @@
 
 .si-bg-light-blue-lighten-1 {
     background-color: rgba(3, 168, 243, .95);
+}
+
+.si-bg-sky-blue-lighten-1 {
+    background-color: rgba(135, 206, 250, .95);
 }
 
 .si-bg-cyan-lighten-1 {
@@ -199,6 +207,10 @@
     background-color: rgba(3, 168, 243, .85);
 }
 
+.si-bg-sky-blue-lighten-2 {
+    background-color: rgba(135, 206, 250, .85);
+}
+
 .si-bg-cyan-lighten-2 {
     background-color: rgba(0, 255, 255, .85);
 }
@@ -283,6 +295,10 @@
 
 .si-bg-light-blue-lighten-3 {
     background-color: rgba(3, 168, 243, .65);
+}
+
+.si-bg-sky-blue-lighten-3 {
+    background-color: rgba(135, 206, 250, .65);
 }
 
 .si-bg-cyan-lighten-3 {
@@ -371,6 +387,10 @@
     background-color: rgba(3, 168, 243, .45);
 }
 
+.si-bg-sky-blue-lighten-4 {
+    background-color: rgba(135, 206, 250, .45);
+}
+
 .si-bg-cyan-lighten-4 {
     background-color: rgba(0, 255, 255, .45);
 }
@@ -457,6 +477,10 @@
     color: #03a8f3;
 }
 
+.si-fg-sky-blue-lighten {
+    background-color: lightskyblue;
+}
+
 .si-fg-cyan {
     color: cyan;
 }
@@ -511,6 +535,118 @@
 
 .si-fg-black {
     color: black;
+}
+
+/*decoration*/
+
+.si-decor-red {
+    --border-color: red;
+    --box-shadow-color: red;
+}
+
+.si-decor-pink {
+    --border-color: pink;
+    --box-shadow-color: pink;
+}
+
+.si-decor-purple {
+    --border-color: purple;
+    --box-shadow-color: purple;
+}
+
+.si-decor-deep-purple {
+    --border-color: #673ab6;
+    --box-shadow-color: #673ab6;
+}
+
+.si-decor-indigo {
+    --border-color: indigo;
+    --box-shadow-color: indigo;
+}
+
+.si-decor-blue {
+    --border-color: blue;
+    --box-shadow-color: blue;
+}
+
+.si-decor-light-blue {
+    --border-color: #03a8f3;
+    --box-shadow-color: #03a8f3;
+}
+
+.si-decor-sky-blue {
+    --border-color: lightskyblue;
+    --box-shadow-color: lightskyblue;
+}
+
+.si-decor-cyan {
+    --border-color: cyan;
+    --box-shadow-color: cyan;
+}
+
+.si-decor-teal {
+    --border-color: teal;
+    --box-shadow-color: teal;
+}
+
+.si-decor-green {
+    --border-color: green;
+    --box-shadow-color: green;
+}
+
+.si-decor-light-green {
+    --border-color: #8ac24a;
+    --box-shadow-color: #8ac24a;
+}
+
+.si-decor-lime {
+    --border-color: lime;
+    --box-shadow-color: lime;
+}
+
+.si-decor-yellow {
+    --border-color: yellow;
+    --box-shadow-color: yellow;
+}
+
+.si-decor-amber {
+    --border-color: #fec007;
+    --box-shadow-color: #fec007;
+}
+
+.si-decor-orange {
+    --border-color: orange;
+    --box-shadow-color: orange;
+}
+
+.si-decor-deep-orange {
+    --border-color: #fe5722;
+    --box-shadow-color: #fe5722;
+}
+
+.si-decor-brown {
+    --border-color: brown;
+    --box-shadow-color: brown;
+}
+
+.si-decor-gray {
+    --border-color: gray;
+    --box-shadow-color: gray;
+}
+
+.si-decor-blue-gray {
+    --border-color: #607d8a;
+    --box-shadow-color: #607d8a;
+}
+
+.si-decor-white {
+    --border-color: white;
+    --box-shadow-color: white;
+}
+
+.si-decor-black {
+    --border-color: black;
+    --box-shadow-color: black;
 }
 
 /*effect*/

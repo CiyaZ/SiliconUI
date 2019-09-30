@@ -6,15 +6,15 @@
 .si-table caption {
     font-weight: bold;
     font-size: 20px;
-    text-align: left;
+    text-align: center;
 }
 
 .si-table tr {
-    border-bottom: 1px solid #cbcbcb;
+    border: 1px solid #cbcbcb;
 }
 
 .si-table tr:nth-child(2n+1) {
-    border-bottom: 1px solid #cbcbcb;
+    border: 1px solid #cbcbcb;
 }
 
 .si-table tr:hover {
@@ -23,8 +23,10 @@
 
 .si-table td {
     padding: 7px 9px;
+    border: 1px solid #cbcbcb;
 }
 
 .si-table th {
     padding: 10px 12px;
+    border: 1px solid #cbcbcb;
 }
