@@ -1,0 +1,21 @@
+.si-breadcrumb {
+}
+
+.si-breadcrumb-text {
+    color: gray;
+}
+
+.si-breadcrumb-separator {
+    color: gray;
+}
+
+.si-breadcrumb-link {
+    color: #03a8f3;
+    transition: color 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.si-breadcrumb-link:hover {
+    color: blue;
+}
