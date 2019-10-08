@@ -1,0 +1,13 @@
+.si-tag {
+    display: inline-block;
+    padding: 2px 4px 2px 4px;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+.si-tag a {
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
+}
