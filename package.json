@@ -1,7 +1,7 @@
 {
   "name": "@ciyaz/silicon-ui",
-  "version": "0.2.1",
-  "repository": "git@gitee.com:ciyaz/SiliconUI.git",
+  "version": "0.3.0",
+  "repository": "https://github.com/CiyaZ/silicon-ui.git",
   "author": "CiyaZ <ciyaz@qq.com>",
   "license": "MIT",
   "devDependencies": {
