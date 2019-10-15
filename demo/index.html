@@ -124,7 +124,19 @@
             <span class="si-tag si-bg-blue-lighten-2 si-fg-white">标签2</span>
             <span class="si-tag si-bg-light-green-lighten-4 si-fg-gray"><a href="#">标签3</a></span>
         </div>
+        <div class="si-panel si-bg-white" style="margin-top: 5px; text-align: left">
+            <button id="trigger-dropdown" class="si-btn si-bg-orange si-fg-white si-decor-yellow">点击弹出Dropdown</button>
+        </div>
     </div>
+</div>
+<div id="dropdown" style="display: none" class="si-dropdown si-bg-white si-fg-black">
+    <ul>
+        <li>这是选项1</li>
+        <li>这是选项2</li>
+        <li>这是选项3</li>
+        <li onclick="handleDropdownClick()">点击触发事件</li>
+        <li><a href="https://github.com">Github</a></li>
+    </ul>
 </div>
 <div id="loading" style="display: none" class="si-loading si-fg-white si-decor-white si-bg-black-lighten-4">
     <div class="si-loading-ring"></div>
@@ -140,19 +152,30 @@
             domId: 'loading'
         });
         // 按SPACE键显示隐藏loading组件
-        let loadingToggle = false;
         document.body.addEventListener('keydown', function (ev) {
             if (ev.keyCode === 32) {
-                loadingToggle = !loadingToggle;
-                if (loadingToggle) {
-                    loading.showLoading();
-                } else {
-                    loading.hideLoading();
-                }
+                loading.toggleLoading();
                 ev.preventDefault();
             }
         }, false);
+        // 初始化dropdown组件
+        let dropdown = new silicon.Dropdown({
+            domId: 'dropdown',
+            // relativeDomId: 'trigger-dropdown'
+        });
+        document.getElementById('trigger-dropdown').addEventListener('click', function () {
+            dropdown.toggleDropdown();
+        });
+        document.body.addEventListener('mousedown', function (ev) {
+            let check = dropdown.checkPosWithRelativeNode({'x': ev.clientX,'y': ev.clientY});
+            if (!check) {
+                dropdown.hideDropdown();
+            }
+        }, false);
     });
+    function handleDropdownClick() {
+        alert('你点击了Dropdown组件中的按钮');
+    }
 </script>
 </body>
 </html>

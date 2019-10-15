@@ -14,4 +14,12 @@ export default class Loading {
     hideLoading() {
         this.domNode.style.display = 'none';
     }
+
+    toggleLoading() {
+        if (this.domNode.style.display === 'none') {
+            this.domNode.style.display = 'block';
+        } else {
+            this.domNode.style.display = 'none';
+        }
+    }
 }

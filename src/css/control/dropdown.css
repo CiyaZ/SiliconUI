@@ -1,0 +1,32 @@
+.si-dropdown {
+    display: inline-block;
+    position: absolute;
+    box-shadow: 0 0 3px 1px var(--box-shadow-color, #cbcbcb);
+}
+
+.si-dropdown ul {
+    list-style: none;
+    padding: 1px;
+    margin-block-start: 3px;
+    margin-block-end: 3px;
+}
+
+.si-dropdown li:nth-child(n) {
+    padding: 7px 9px;
+    cursor: pointer;
+}
+
+.si-dropdown li:nth-child(n) a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.si-dropdown li:nth-child(n):hover {
+    background-color: rgba(205, 205, 205, 0.1);
+}
+
+.si-dropdown li:nth-child(n):active {
+    background-color: rgba(205, 205, 205, 0.2);
+}
+
