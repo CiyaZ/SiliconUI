@@ -1,0 +1,29 @@
+.si-tab {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+    border-bottom: 1px solid var(--border-color, #cbcbcb);
+}
+
+.si-tab-item {
+    display: inline-block;
+    margin-bottom: -1px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.si-tab-item a {
+    text-decoration: none;
+    color: #03a8f3;
+}
+
+.si-tab-item-active {
+    border: 1px solid var(--border-color, #cbcbcb);
+    border-bottom-color: white;
+}
+
+.si-tab-item-disabled {
+    color: gray;
+    cursor: not-allowed;
+}
