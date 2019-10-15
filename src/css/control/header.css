@@ -3,5 +3,5 @@
     height: 45px;
     box-shadow: 0 0 3px 1px var(--box-shadow-color, #cbcbcb);
     position: fixed;
-    z-index: 999;
+    z-index: 100;
 }
