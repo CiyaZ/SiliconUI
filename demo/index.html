@@ -26,8 +26,8 @@
         </div>
         <div class="si-panel si-bg-white si-decor-pink" style="margin-top: 5px">
             <button class="si-btn-small si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
-            <button class="si-btn si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
-            <button class="si-btn-large si-bg-deep-orange si-fg-white si-decor-orange">按钮1</button>
+            <button class="si-btn si-bg-deep-orange si-fg-white si-decor-orange">按钮2</button>
+            <button class="si-btn-large si-bg-deep-orange si-fg-white si-decor-orange">按钮3</button>
         </div>
         <div class="si-panel si-bg-white" style="margin-top: 5px">
             <div class="si-search-box" style="margin-bottom: 10px; width: 20%">
@@ -124,7 +124,7 @@
             <span class="si-tag si-bg-blue-lighten-2 si-fg-white">标签2</span>
             <span class="si-tag si-bg-light-green-lighten-4 si-fg-gray"><a href="#">标签3</a></span>
         </div>
-        <div class="si-panel si-bg-white" style="margin-top: 5px; text-align: left">
+        <div class="si-panel si-bg-white" style="margin-top: 5px; text-align: right">
             <button id="trigger-dropdown" class="si-btn si-bg-orange si-fg-white si-decor-yellow">点击弹出Dropdown</button>
         </div>
     </div>
@@ -161,7 +161,7 @@
         // 初始化dropdown组件
         let dropdown = new silicon.Dropdown({
             domId: 'dropdown',
-            // relativeDomId: 'trigger-dropdown'
+            relativeDomId: 'trigger-dropdown'
         });
         document.getElementById('trigger-dropdown').addEventListener('click', function () {
             dropdown.toggleDropdown();
