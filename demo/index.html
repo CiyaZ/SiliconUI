@@ -161,6 +161,20 @@
         <span>加载中</span>
     </div>
 </div>
+<div id="layer" style="display: none;" class="si-layer si-bg-black-lighten-4">
+    <div class="si-popup si-bg-white" style="width: 320px; height: 160px">
+        <h4>这是一个弹出层</h4>
+        <p>Hello, world!</p>
+        <div style="text-align: right">
+            <button class="si-btn si-bg-green-lighten-2 si-fg-white">确认</button>
+            <button class="si-btn si-bg-red-lighten-2 si-fg-white">取消</button>
+        </div>
+    </div>
+</div>
+<div class="si-notice-container">
+    <div class="si-notice si-bg-light-green-lighten-4 si-decor-light-green">这是一个提示消息1</div>
+    <div class="si-notice si-bg-light-green-lighten-4 si-decor-light-green">这是一个提示消息2</div>
+</div>
 <script>
     // siReady是统一初始化方法
     siReady(function () {
@@ -168,11 +182,17 @@
         let loading = new silicon.Loading({
             domId: 'loading'
         });
+        // 初始化layerPopup组件
+        let layerPopup = new silicon.LayerPopup({
+            domId: 'layer'
+        });
         // 按SPACE键显示隐藏loading组件
         document.body.addEventListener('keydown', function (ev) {
             if (ev.keyCode === 32) {
                 loading.toggleLoading();
                 ev.preventDefault();
+            } else if (ev.keyCode === 80) {
+                layerPopup.toggleLayerPopup();
             }
         }, false);
         // 初始化dropdown组件

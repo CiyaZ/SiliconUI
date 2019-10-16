@@ -1,0 +1,20 @@
+.si-notice-container {
+    z-index: 100;
+    position: fixed;
+    width: 80%;
+    top: 60px;
+    right: 20px;
+}
+
+@media screen and (min-width: 1024px) {
+    .si-notice-container {
+        width: 15%;
+    }
+}
+
+.si-notice {
+    box-shadow: 0 0 3px 1px var(--box-shadow-color, #cbcbcb);
+    padding: 10px;
+    margin-top: 10px;
+    cursor: default;
+}
