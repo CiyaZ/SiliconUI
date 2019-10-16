@@ -15,7 +15,12 @@
 
 .si-tab-item a {
     text-decoration: none;
+    transition: color 0.3s;
     color: #03a8f3;
+}
+
+.si-tab-item a:hover {
+    color: blue;
 }
 
 .si-tab-item-active {
