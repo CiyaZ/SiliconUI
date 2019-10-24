@@ -4,4 +4,6 @@
     box-shadow: 0 0 3px 1px var(--box-shadow-color, #cbcbcb);
     position: fixed;
     z-index: 100;
+    background-color: var(--bg-color, white);
+    color: var(--fg-color, black);
 }

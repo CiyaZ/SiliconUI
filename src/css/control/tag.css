@@ -4,6 +4,8 @@
     font-size: 14px;
     border-radius: 5px;
     cursor: default;
+    background-color: var(--bg-color, white);
+    color: var(--fg-color, black);
 }
 
 .si-tag a {

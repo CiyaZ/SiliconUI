@@ -9,6 +9,8 @@
     opacity: 0.85;
     outline: none;
     transition: box-shadow 0.3s;
+    background-color: var(--bg-color, #cbcbcb);
+    color: var(--fg-color, black);
 }
 
 .si-btn-small:hover {
@@ -31,6 +33,8 @@
     opacity: 0.85;
     outline: none;
     transition: box-shadow 0.3s;
+    background-color: var(--bg-color, #cbcbcb);
+    color: var(--fg-color, black);
 }
 
 .si-btn:hover {
@@ -52,6 +56,8 @@
     font-size: 16px;
     outline: none;
     transition: box-shadow 0.3s;
+    background-color: var(--bg-color, #cbcbcb);
+    color: var(--fg-color, black);
 }
 
 .si-btn-large:hover {

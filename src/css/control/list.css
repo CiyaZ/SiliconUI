@@ -1,6 +1,8 @@
 .si-list {
     list-style: none;
     padding: 1px;
+    background-color: var(--bg-color, white);
+    color: var(--fg-color, black);
 }
 
 .si-list li:nth-child(n) {
