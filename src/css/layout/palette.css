@@ -71,6 +71,10 @@
     --bg-color: rgba(165, 42, 42, 1);
 }
 
+.si-bg-light-gray {
+    --bg-color: rgba(203, 203, 203, 1);
+}
+
 .si-bg-gray {
     --bg-color: rgba(128, 128, 128, 1);
 }
@@ -159,6 +163,10 @@
 
 .si-bg-brown-lighten-1 {
     --bg-color: rgba(165, 42, 42, .95);
+}
+
+.si-bg-light-gray-lighten-1 {
+    --bg-color: rgba(203, 203, 203, .95);
 }
 
 .si-bg-gray-lighten-1 {
@@ -251,6 +259,10 @@
     --bg-color: rgba(165, 42, 42, .85);
 }
 
+.si-bg-light-gray-lighten-2 {
+    --bg-color: rgba(203, 203, 203, .85);
+}
+
 .si-bg-gray-lighten-2 {
     --bg-color: rgba(128, 128, 128, .85);
 }
@@ -339,6 +351,10 @@
 
 .si-bg-brown-lighten-3 {
     --bg-color: rgba(165, 42, 42, .65);
+}
+
+.si-bg-light-gray-lighten-3 {
+    --bg-color: rgba(203, 203, 203, .65);
 }
 
 .si-bg-gray-lighten-3 {
@@ -431,6 +447,10 @@
     --bg-color: rgba(165, 42, 42, .45);
 }
 
+.si-bg-light-gray-lighten-5 {
+    --bg-color: rgba(203, 203, 203, .45);
+}
+
 .si-bg-gray-lighten-4 {
     --bg-color: rgba(128, 128, 128, .45);
 }
@@ -519,6 +539,10 @@
 
 .si-fg-brown {
     --fg-color: brown;
+}
+
+.si-fg-light-gray {
+    --fg-color: #cbcbcb;
 }
 
 .si-fg-gray {
@@ -627,6 +651,11 @@
 .si-decor-brown {
     --border-color: brown;
     --box-shadow-color: brown;
+}
+
+.si-decor-light-gray {
+    --border-color: #cbcbcb;
+    --box-shadow-color: #cbcbcb;
 }
 
 .si-decor-gray {
